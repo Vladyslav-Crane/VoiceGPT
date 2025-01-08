@@ -17,3 +17,12 @@ venv/
 *.njsproj
 *.sln
 *.sw?
+
+# Electron
+node_modules/
+dist/
+build/
+out/
+*.log
+*.tsbuildinfo
+.DS_Store
