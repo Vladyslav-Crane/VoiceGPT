@@ -3,12 +3,20 @@
     "version": "1.0.0",
     "description": "An Electron application",
     "main": "main.js",
+    "type": "module",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "tsn": "ts-node -r tsconfig-paths/register"
     },
     "author": "Your Name",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^25.9.8"
+        "electron": "^25.9.8",
+        "tsx": "^4.19.2"
+    },
+    "dependencies": {
+        "openai": "^4.77.3",
+        "ts-node": "^10.9.2",
+        "tsconfig-paths": "^4.2.0"
     }
 }
