@@ -1,11 +1,10 @@
 #! /usr/bin/env python3
-import os
 import time
 import openai
 import pyaudio
 import speech_recognition as speech_recog
 
-client = openai.Client()
+client = openai.Client()    # the client takes OPENAI_API_KEY as an environment variable
 
 r = speech_recog.Recognizer()
 mic = speech_recog.Microphone()
